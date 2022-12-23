@@ -1,0 +1,202 @@
+header {
+  width: 100%;
+  height: 90vh;
+  padding: 7em 0;
+  padding-top: 10em;
+  position: relative;
+}
+header h1 {
+  font-family: regular;
+  color: var(--text);
+  font-size: 10em;
+}
+header .title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+header .title h1.t {
+  margin-left: -0.2em;
+}
+header .title h1.t1 {
+  margin-right: -1.4em;
+}
+header .title h1.t2 {
+  margin-left: -1.7em;
+  margin-top: -0.29em;
+}
+header .info {
+  display: flex;
+  padding: 2em 0;
+}
+header h4 {
+  font-family: regular;
+  color: var(--text);
+  font-size: 1.2em;
+  margin-left: 4em;
+  text-transform: uppercase;
+}
+header h4 span {
+  color: var(--header);
+  font-family: Monlight;
+}
+header h4.intro {
+  margin-left: 47em;
+  font-family: meduim;
+  line-height: 15px;
+}
+.scroll {
+  font-family: Monlight;
+  color: var(--text);
+  font-size: 1.2em;
+  text-transform: uppercase;
+  margin-bottom: auto;
+  position: absolute;
+  bottom: 1em;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+section.typo {
+  width: 100%;
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin: 2em 0;
+  color: var(--header);
+  font-family: regular;
+  display: flex;
+  justify-content: center;
+  padding: 2em 0;
+  padding-top: 6em;
+  position: relative;
+}
+section .t {
+  line-height: 9em;
+  position: relative;
+  z-index: 5;
+}
+section h1 {
+  font-size: 9em;
+  text-transform: uppercase;
+}
+
+section.typo .t p.no {
+  position: absolute;
+  top: -10%;
+  left: -6%;
+  font-size: 1.5em;
+}
+section.typo .t p.date {
+  position: absolute;
+  bottom: -25%;
+  left: -1%;
+  font-size: 1.5em;
+}
+section .view {
+  color: var(--text);
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 1.4em;
+  border: 3px solid var(--text);
+}
+
+section.user {
+  margin: 2em 0;
+  color: var(--header);
+  font-family: regular;
+  display: flex;
+  justify-content: center;
+  padding: 2em 0;
+  padding-top: 6em;
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  justify-content: flex-end;
+  /* border: 2px solid #fff; */
+}
+section.user .title {
+  position: absolute;
+  z-index: 5;
+  top: 14%;
+  left: 18%;
+}
+section.user img {
+  object-fit: cover;
+  width: 70%;
+  /* height: 70vh; */
+}
+section.user p {
+  position: absolute;
+}
+
+section.user .no {
+  left: -4%;
+  top: -11%;
+}
+section.user .date {
+  right: 1%;
+  bottom: -22%;
+}
+section.userint {
+  margin: 2em 0;
+  color: var(--header);
+  font-family: regular;
+  display: flex;
+  justify-content: center;
+  padding: 4em 8em;
+  padding-top: 6em;
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  justify-content: flex-end;
+  /* border: 2px solid #fff; */
+}
+section.userint .title {
+text-align: right;
+}
+section.userint .view {
+  left: 90%;
+  bottom: 10%;
+}
+section.userint p {
+  position: absolute;
+}
+section.userint .no {
+  right: -7%;
+  top: -9%;
+}
+section.userint .intro {
+  opacity: 0.6;
+  font-size: 1em;
+  line-height: 15px;
+  bottom: 10%;
+  letter-spacing: 1px;
+  left: 5%;
+  text-transform: uppercase;
+}
+
+
+/******************* MOBILE ************ */
+
+@media (max-width: 766px) {
+  header h1 {
+    font-size: 4em;
+  }
+  header .info {
+    display: flex;
+    padding: 5em 0;
+  }
+  header h4.intro {
+    margin-left: 8em;
+  }
+}

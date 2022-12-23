@@ -1,0 +1,51 @@
+header.uxCaseHeader {
+  margin-bottom: 2em;
+  color: var(--header);
+  font-family: regular;
+  display: flex;
+  justify-content: center;
+  padding: 2em 0;
+  padding-top: 0em;
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  justify-content: flex-end;
+  }
+  header.uxCaseHeader .title {
+    position: absolute;
+    z-index: 5;
+    top: 5%;
+    left: 16.5%;
+  }
+  
+header.uxCaseHeader img {
+  object-fit: cover;
+  width: 70%;
+  /* height: 70vh; */
+}
+header.uxCaseHeader p {
+  position: absolute;
+}
+
+header.uxCaseHeader .no {
+  left: -4%;
+  top: -11%;
+}
+header.uxCaseHeader .date {
+  right: 1%;
+  bottom: -22%;
+}
+header.uxCaseHeader .view {
+  color: var(--text);
+  position: absolute;
+  bottom: 7%;
+  left: 5%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 1.4em;
+  border: 3px solid var(--text);
+}
