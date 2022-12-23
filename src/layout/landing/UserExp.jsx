@@ -15,19 +15,19 @@ function UserExp() {
         <div className="t">
           <p className="no">002</p>
           <motion.h1 style={{ x, transition: "2s ease-in-out" }}>
-          User
+            User
           </motion.h1>
           <motion.h1 style={{ x: x1, transition: "2s ease-in-out" }}>
-          experience 
+            experience
           </motion.h1>
           <motion.h1 style={{ x, transition: "2s ease-in-out" }}>
-          case studies.
+            case studies.
           </motion.h1>
           <p className="date">03.10.2022</p>
         </div>
       </div>
       <img src="/assets/homeUser.png" alt="" />
-      <a href="#" className="view">
+      <a href="/uxcase" className="view">
         VIEW
       </a>
     </section>
