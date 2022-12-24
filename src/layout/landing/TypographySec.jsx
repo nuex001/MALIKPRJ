@@ -30,7 +30,9 @@ function TypographySec() {
           <p className="date">01.01.2022</p>
         </div>
       </div>
-      <a href="#" className="view">VIEW</a>
+      <a href="/typodesing" className="view">
+        VIEW
+      </a>
     </section>
   );
 }
