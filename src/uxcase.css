@@ -3,19 +3,21 @@ header.uxCaseHeader {
   color: var(--header);
   font-family: regular;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   padding: 2em 0;
   padding-top: 0em;
   position: relative;
   width: 100%;
   height: 80vh;
-  justify-content: flex-end;
+  margin-bottom:30em;
+  align-items: flex-end;
   }
   header.uxCaseHeader .title {
     position: absolute;
     z-index: 5;
     top: 5%;
     left: 16.5%;
+    overflow:visible;
   }
   
 header.uxCaseHeader img {
@@ -28,8 +30,8 @@ header.uxCaseHeader p {
 }
 
 header.uxCaseHeader .no {
-  left: -4%;
-  top: -11%;
+  left: -3%;
+  top: 7%;
 }
 header.uxCaseHeader .date {
   right: 1%;
@@ -48,4 +50,76 @@ header.uxCaseHeader .view {
   border-radius: 50%;
   font-size: 1.4em;
   border: 3px solid var(--text);
+}
+header.uxCaseHeader h4{
+  position:absolute;
+  bottom:-35%;
+  right:48.5%;
+  font-size: 1.4em;
+  text-transform: none;
+  font-family:Monlight;
+  /* opacity:0.6; */
+}
+header.uxCaseHeader h4 span{
+  display:block;
+  margin-top:1.5em;
+}
+header.uxCaseHeader h4 span a{
+text-decoration: underline;
+color:var(--link);
+}
+
+section.camplog {
+  width: 100%;
+  height: auto;
+  position: relative;
+  font-family: regular;
+  color:var(--header)
+}
+section.camplog .text{
+  position: absolute;
+  z-index: 5;
+  top: 15%;
+  right: 7%;
+  font-size:1.25em;
+  text-align: right;
+}
+section img{
+  width: 75%;
+  height: 90vh;
+  object-fit:cover;
+}
+section.camplog .view{
+ left: 89%;
+}
+section.ascent{
+  width: 100%;
+  height: auto;
+  position: relative;
+  display:flex;
+  justify-content: flex-end;
+  font-family: regular;
+  color:var(--header);
+  margin:11em 0;
+  position:relative;
+}
+section.ascent .text{
+  position:absolute;
+  text-align:left;
+    top:17%;
+  left:9.5%;
+}
+section.ascent .text h4{
+  font-size: 10em;
+}
+section.ascent .text h6{
+  font-size: 1.2em;
+  /* line-height: 15px; */
+}
+section.ascent .soon{
+  color:var(--link);
+  position:absolute;
+  bottom:10%;
+  left:5%;
+  font-size: 2em;
 }

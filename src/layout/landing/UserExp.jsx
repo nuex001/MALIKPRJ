@@ -26,7 +26,7 @@ function UserExp() {
           <p className="date">03.10.2022</p>
         </div>
       </div>
-      <img src="/assets/homeUser.png" alt="" />
+      <img src="/assets/UX.png" alt="" />
       <a href="/uxcase" className="view">
         VIEW
       </a>
